@@ -1,0 +1,10 @@
+<!-- Custom UEBA alarm decoder -->
+<decoder name="ueba_alarm">
+  <prematch>Alarm UEBA </prematch>
+</decoder>
+
+<decoder name="ueba_alarm_ip">
+  <parent>ueba_alarm</parent>
+  <regex>Alarm UEBA (\S+)</regex>
+  <order>srcip</order>
+</decoder>

@@ -1,0 +1,6 @@
+src_ip,disparou_A,disparou_B,motivo
+192.168.110.116,True,False,A (host: fan-out + regularidade)
+192.168.110.152,False,True,B (par: comunicação nova/aumento)
+192.168.110.57,False,True,B (par: comunicação nova/aumento)
+192.168.110.59,True,False,A (host: fan-out + regularidade)
+192.168.110.96,False,True,B (par: comunicação nova/aumento)

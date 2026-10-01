@@ -1,0 +1,8 @@
+hosts:
+  - 1513629884013:
+      url: "https://wazuh.manager"
+      port: 55000
+      username: admin
+      password: "123456##ABCdef"
+#      run_as: true
+enrollment.dns: "172.100.0.200"

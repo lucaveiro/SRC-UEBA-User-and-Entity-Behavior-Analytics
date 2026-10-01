@@ -1,0 +1,7 @@
+<!-- Custom UEBA alarm rules -->
+<group name="ueba,">
+  <rule id="100201" level="7">
+    <decoded_as>ueba_alarm</decoded_as>
+    <description>UEBA Alarm triggered from $(srcip)</description>
+  </rule>
+</group>
